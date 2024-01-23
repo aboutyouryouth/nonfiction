@@ -1,0 +1,171 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --nonfiction-com-alabaster: #fafafa;
+  --nonfiction-com-nero: #ffffff;
+  --nonfiction-com-black: #000000;
+  --nonfiction-com-green-pea: #1b6551;
+  --nonfiction-com-black: #010101;
+  --nonfiction-com-gallery: #eeeeee;
+  --nonfiction-com-mercury: #e1e1e1;
+  --nonfiction-com-black: #000001;
+  --nonfiction-com-brick-red: #cd2e3a;
+  --nonfiction-com-cobalt: #0047a0;
+  --nonfiction-com-alabaster: #fcfcfc;
+
+  /* Fonts */
+  --nonfiction-com-pretendard-regular-11-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-11-font-size: 11px;
+  --nonfiction-com-pretendard-regular-11-line-height: 14.85px;
+  --nonfiction-com-pretendard-regular-11-font-weight: 400;
+  --nonfiction-com-pretendard-regular-11-font-style: normal;
+  --nonfiction-com-pretendard-regular-16-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-16-font-size: 16px;
+  --nonfiction-com-pretendard-regular-16-line-height: 21.6px;
+  --nonfiction-com-pretendard-regular-16-font-weight: 400;
+  --nonfiction-com-pretendard-regular-16-font-style: normal;
+  --nonfiction-com-pretendard-regular-18-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-18-font-size: 18px;
+  --nonfiction-com-pretendard-regular-18-line-height: 24.3px;
+  --nonfiction-com-pretendard-regular-18-font-weight: 400;
+  --nonfiction-com-pretendard-regular-18-font-style: normal;
+  --nonfiction-com-pretendard-regular-14-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-14-font-size: 14px;
+  --nonfiction-com-pretendard-regular-14-line-height: 18.9px;
+  --nonfiction-com-pretendard-regular-14-font-weight: 400;
+  --nonfiction-com-pretendard-regular-14-font-style: normal;
+  --nonfiction-com-pretendard-regular-13-67-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-13-67-font-size: 13.671875px;
+  --nonfiction-com-pretendard-regular-13-67-line-height: 18.9px;
+  --nonfiction-com-pretendard-regular-13-67-font-weight: 400;
+  --nonfiction-com-pretendard-regular-13-67-font-style: normal;
+  --nonfiction-com-pretendard-regular-13-89-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-13-89-font-size: 13.890625px;
+  --nonfiction-com-pretendard-regular-13-89-line-height: 18.9px;
+  --nonfiction-com-pretendard-regular-13-89-font-weight: 400;
+  --nonfiction-com-pretendard-regular-13-89-font-style: normal;
+  --nonfiction-com-pretendard-regular-12-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-12-font-size: 12px;
+  --nonfiction-com-pretendard-regular-12-line-height: 31px;
+  --nonfiction-com-pretendard-regular-12-font-weight: 400;
+  --nonfiction-com-pretendard-regular-12-font-style: normal;
+  --nonfiction-com-pretendard-regular-13-89-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-13-89-font-size: 13.890625px;
+  --nonfiction-com-pretendard-regular-13-89-line-height: 20.3px;
+  --nonfiction-com-pretendard-regular-13-89-font-weight: 400;
+  --nonfiction-com-pretendard-regular-13-89-font-style: normal;
+  --nonfiction-com-pretendard-regular-19-53-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-19-53-font-size: 19.53125px;
+  --nonfiction-com-pretendard-regular-19-53-line-height: 29px;
+  --nonfiction-com-pretendard-regular-19-53-font-weight: 400;
+  --nonfiction-com-pretendard-regular-19-53-font-style: normal;
+  --nonfiction-com-pretendard-regular-14-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-14-font-size: 14px;
+  --nonfiction-com-pretendard-regular-14-line-height: 20.3px;
+  --nonfiction-com-pretendard-regular-14-font-weight: 400;
+  --nonfiction-com-pretendard-regular-14-font-style: normal;
+  --nonfiction-com-pretendard-regular-13-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-13-font-size: 13px;
+  --nonfiction-com-pretendard-regular-13-line-height: 32px;
+  --nonfiction-com-pretendard-regular-13-font-weight: 400;
+  --nonfiction-com-pretendard-regular-13-font-style: normal;
+  --nonfiction-com-pretendard-regular-12-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-12-font-size: 12px;
+  --nonfiction-com-pretendard-regular-12-line-height: 16.2px;
+  --nonfiction-com-pretendard-regular-12-font-weight: 400;
+  --nonfiction-com-pretendard-regular-12-font-style: normal;
+  --nonfiction-com-pretendard-regular-11-63-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-11-63-font-size: 11.625px;
+  --nonfiction-com-pretendard-regular-11-63-line-height: 16.2px;
+  --nonfiction-com-pretendard-regular-11-63-font-weight: 400;
+  --nonfiction-com-pretendard-regular-11-63-font-style: normal;
+  --nonfiction-com-pretendard-medium-10-31-font-family: Pretendard-Medium,
+    sans-serif;
+  --nonfiction-com-pretendard-medium-10-31-font-size: 10.3125px;
+  --nonfiction-com-pretendard-medium-10-31-line-height: 14.85px;
+  --nonfiction-com-pretendard-medium-10-31-font-weight: 500;
+  --nonfiction-com-pretendard-medium-10-31-font-style: normal;
+  --nonfiction-com-pretendard-medium-10-83-font-family: Pretendard-Medium,
+    sans-serif;
+  --nonfiction-com-pretendard-medium-10-83-font-size: 10.828125px;
+  --nonfiction-com-pretendard-medium-10-83-line-height: 14.85px;
+  --nonfiction-com-pretendard-medium-10-83-font-weight: 500;
+  --nonfiction-com-pretendard-medium-10-83-font-style: normal;
+  --nonfiction-com-pretendard-regular-11-81-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-11-81-font-size: 11.8125px;
+  --nonfiction-com-pretendard-regular-11-81-line-height: 16.2px;
+  --nonfiction-com-pretendard-regular-11-81-font-weight: 400;
+  --nonfiction-com-pretendard-regular-11-81-font-style: normal;
+  --nonfiction-com-pretendard-medium-10-66-font-family: Pretendard-Medium,
+    sans-serif;
+  --nonfiction-com-pretendard-medium-10-66-font-size: 10.65625px;
+  --nonfiction-com-pretendard-medium-10-66-line-height: 14.85px;
+  --nonfiction-com-pretendard-medium-10-66-font-weight: 500;
+  --nonfiction-com-pretendard-medium-10-66-font-style: normal;
+  --nonfiction-com-pretendard-regular-11-81-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-11-81-font-size: 11.8125px;
+  --nonfiction-com-pretendard-regular-11-81-line-height: 45px;
+  --nonfiction-com-pretendard-regular-11-81-font-weight: 400;
+  --nonfiction-com-pretendard-regular-11-81-font-style: normal;
+  --nonfiction-com-pretendard-regular-19-53-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-19-53-font-size: 19.53125px;
+  --nonfiction-com-pretendard-regular-19-53-line-height: 33px;
+  --nonfiction-com-pretendard-regular-19-53-font-weight: 400;
+  --nonfiction-com-pretendard-regular-19-53-font-style: normal;
+  --nonfiction-com-pretendard-regular-13-89-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-13-89-font-size: 13.890625px;
+  --nonfiction-com-pretendard-regular-13-89-line-height: 23.1px;
+  --nonfiction-com-pretendard-regular-13-89-font-weight: 400;
+  --nonfiction-com-pretendard-regular-13-89-font-style: normal;
+  --nonfiction-com-pretendard-regular-14-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-14-font-size: 14px;
+  --nonfiction-com-pretendard-regular-14-line-height: 23.1px;
+  --nonfiction-com-pretendard-regular-14-font-weight: 400;
+  --nonfiction-com-pretendard-regular-14-font-style: normal;
+  --nonfiction-com-pretendard-regular-12-font-family: Pretendard-Regular,
+    sans-serif;
+  --nonfiction-com-pretendard-regular-12-font-size: 12px;
+  --nonfiction-com-pretendard-regular-12-line-height: 45px;
+  --nonfiction-com-pretendard-regular-12-font-weight: 400;
+  --nonfiction-com-pretendard-regular-12-font-style: normal;
+  --nonfiction-com-inter-regular-16-font-family: Inter-Regular, sans-serif;
+  --nonfiction-com-inter-regular-16-font-size: 16px;
+  --nonfiction-com-inter-regular-16-line-height: 20px;
+  --nonfiction-com-inter-regular-16-font-weight: 400;
+  --nonfiction-com-inter-regular-16-font-style: normal;
+  --nonfiction-com-inter-regular-15-75-font-family: Inter-Regular, sans-serif;
+  --nonfiction-com-inter-regular-15-75-font-size: 15.75px;
+  --nonfiction-com-inter-regular-15-75-line-height: 20px;
+  --nonfiction-com-inter-regular-15-75-font-weight: 400;
+  --nonfiction-com-inter-regular-15-75-font-style: normal;
+  --nonfiction-com-inter-regular-12-font-family: Inter-Regular, sans-serif;
+  --nonfiction-com-inter-regular-12-font-size: 12px;
+  --nonfiction-com-inter-regular-12-line-height: 16.2px;
+  --nonfiction-com-inter-regular-12-font-weight: 400;
+  --nonfiction-com-inter-regular-12-font-style: normal;
+  --nonfiction-com-inter-regular-18-upper-font-family: Inter-Regular, sans-serif;
+  --nonfiction-com-inter-regular-18-upper-font-size: 18px;
+  --nonfiction-com-inter-regular-18-upper-line-height: 24.3px;
+  --nonfiction-com-inter-regular-18-upper-font-weight: 400;
+  --nonfiction-com-inter-regular-18-upper-font-style: normal;
+
+  /* Effects */
+}
